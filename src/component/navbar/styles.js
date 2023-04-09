@@ -32,6 +32,10 @@ ul{
         color: #333;
         text-decoration: none;
         font-size: 1rem;
+        transition: all ease-in-out;
+        &:hover{
+            font-size: 1.1rem;
+        }
         }
         .active{
 color: red;
